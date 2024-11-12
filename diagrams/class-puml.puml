@@ -1,0 +1,132 @@
+@startuml
+left to right direction
+
+interface Audiotrack {
+    +AudioAttributes getAudioAttributes()
+    +File getFileLink()
+    +AudioInputStream getAudioInputStream()
+    +Audiotrack copy()
+}
+
+interface Editor {
+    edit(Audiotrack audiotrack)
+}
+
+interface Converter<T> {
+    convertTo(Audiotrack audiotrack) : T
+}
+
+class AudioMp3Converter {
+    +convertTo(Audiotrack audiotrack) : File
+}
+class AudioOggConverter {
+    +convertTo(Audiotrack audiotrack) : File
+}
+class AudioFlacConverter {
+    +convertTo(Audiotrack audiotrack) : File
+}
+
+class AudioEditor {
+    -Audiotrack audioTrack
+    -Editor selector
+    -Editor copier
+    -Editor paste
+    -Editor cut
+    +select(Audiotrack audiotrack, int position)
+    +copy(Audiotrack audiotrack)
+    +paste(Audiotrack audiotrack)
+    +cut(Audiotrack audiotrack)
+}
+
+class AudioOutput {
+    -Audiotrack audioTrack
+    +outputWaveForm(Audiotrack audiotrack)
+}
+
+class AudioConverter {
+    -Audiotrack audioTrack
+    -Converter converter
+}
+
+Audiotrack <|-- Mp3
+Audiotrack <|-- Ogg
+Audiotrack <|-- Flac
+Editor <|-- AudioSelector
+Editor <|-- AudioCopier
+Editor <|-- AudioPaste
+Editor <|-- AudioCut
+Converter <|-- AudioMp3Converter
+Converter <|-- AudioOggConverter
+Converter <|-- AudioFlacConverter
+
+AudioEditor o-- Audiotrack
+AudioEditor o-- AudioSelector
+AudioEditor o-- AudioCopier
+AudioEditor o-- AudioPaste
+AudioEditor o-- AudioCut
+
+AudioOutput o-- Audiotrack
+AudioConverter o- Audiotrack
+AudioConverter o-- Converter
+
+class Mp3 {
+    -Byte[] elementData
+}
+
+class Ogg {
+    -Byte[] elementData
+}
+
+class Flac {
+    -Byte[] elementData
+}
+
+class AudioSelector {
+    +edit(Audiotrack audiotrack)
+}
+class AudioCopier {
+    +edit(Audiotrack audiotrack)
+}
+class AudioPaste {
+    +edit(Audiotrack audiotrack)
+}
+class AudioCut {
+    +edit(Audiotrack audiotrack)
+}
+
+class DatabaseConnection {
+    -static final String URL
+    -static Connection connection
+    +getConnection() : Connection
+}
+
+class DatabaseInitializer {
+    +initializeDatabase()
+}
+
+class AudioRepository {
+    +addAudio(String name, String format, String path)
+    +getAllAudio() : List<String>
+    +getAudioByProject(int projectId) : List<String>
+}
+
+class ProjectRepository {
+    +addProject(String name)
+    +getAllProjects() : List<String>
+    +addAudioToProject(int projectId, int audioId)
+}
+
+class TrackRepository {
+    +addTrack(int audioId, int startTime, int endTime)
+    +getAllTracks() : List<String>
+}
+
+DatabaseConnection o-- AudioRepository
+DatabaseConnection o-- ProjectRepository
+DatabaseConnection o-- TrackRepository
+
+'AudioRepository --> DatabaseConnection
+'ProjectRepository --> DatabaseConnection
+'TrackRepository --> DatabaseConnection
+
+@enduml

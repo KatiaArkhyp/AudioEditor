@@ -40,5 +40,25 @@ public class AudioRepository {
 
         return audioList;
     }
-}
 
+    public List<String> getAudioByProject(int projectId) {
+        String sql = "SELECT Audio.name FROM Audio " +
+                "JOIN Project_Audio ON Audio.id = Project_Audio.audio_id " +
+                "WHERE Project_Audio.project_id = ?";
+        List<String> audioList = new ArrayList<>();
+
+        try (Connection connection = DatabaseConnection.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setInt(1, projectId);
+            try (ResultSet resultSet = statement.executeQuery()) {
+                while (resultSet.next()) {
+                    audioList.add(resultSet.getString("name"));
+                }
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException("Failed to fetch audio for project", e);
+        }
+
+        return audioList;
+    }
+}

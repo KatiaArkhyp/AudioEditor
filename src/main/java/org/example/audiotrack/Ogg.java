@@ -2,12 +2,13 @@ package org.example.audiotrack;
 
 import it.sauronsoftware.jave.AudioAttributes;
 
+import javax.sound.sampled.AudioInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class Ogg {
+public class Ogg extends Audiotrack {
     private AudioAttributes audioAttributes;
     private File fileLink;
     public Ogg(String filePath) {
@@ -40,5 +41,15 @@ public class Ogg {
 
     public File getFileLink() {
         return fileLink;
+    }
+
+    @Override
+    public AudioInputStream getAudioInputStream() {
+        return null;
+    }
+
+    @Override
+    public Audiotrack copy() {
+        return null;
     }
 }
