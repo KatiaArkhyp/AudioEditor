@@ -1,6 +1,7 @@
 @startuml
 left to right direction
 
+
 interface Audiotrack {
     +AudioAttributes getAudioAttributes()
     +File getFileLink()
@@ -81,9 +82,6 @@ class Flac {
     -Byte[] elementData
 }
 
-class AudioSelector {
-    +edit(Audiotrack audiotrack)
-}
 class AudioCopier {
     +edit(Audiotrack audiotrack)
 }
