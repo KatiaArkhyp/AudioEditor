@@ -1,0 +1,281 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="2100" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Користувач" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="Застосунок" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="190" y="40" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Відкриття застосунку" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="180" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="Відображення UI" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="160" />
+            </Array>
+            <mxPoint x="230" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3QuXH3KUuEEBba2Pdkw-1" value="Сервер" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="340" y="40" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="B3QuXH3KUuEEBba2Pdkw-2" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%92%D0%B8%D0%B4%D1%96%D0%BB%D0%B8%D1%82%D0%B8%20%D1%81%D0%B5%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B0%D1%83%D0%B4%D1%96%D0%BE%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0049%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2290%22%20y%3D%22420%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22175%22%20y%3D%22420%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22230%22%20y%3D%22420%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="B3QuXH3KUuEEBba2Pdkw-1" vertex="1">
+          <mxGeometry x="45" y="192" width="10" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-13" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%92%D0%B8%D0%B4%D1%96%D0%BB%D0%B8%D1%82%D0%B8%20%D1%81%D0%B5%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B0%D1%83%D0%B4%D1%96%D0%BE%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0049%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2290%22%20y%3D%22420%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22175%22%20y%3D%22420%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22230%22%20y%3D%22420%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%92%D0%B8%D0%B4%D1%96%D0%BB%D0%B8%D1%82%D0%B8%20%D1%81%D0%B5%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B0%D1%83%D0%B4%D1%96%D0%BE%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0049%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2290%22%20y%3D%22420%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22175%22%20y%3D%22420%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22230%22%20y%3D%22420%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%92%D0%B8%D0%B4%D1%96%D0%BB%D0%B8%D1%82%D0%B8%20%D1%81%D0%B5%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B0%D1%83%D0%B4%D1%96%D0%BE%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0049%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2290%22%20y%3D%22420%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22175%22%20y%3D%22420%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22230%22%20y%3D%22420%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="B3QuXH3KUuEEBba2Pdkw-1">
+          <mxGeometry x="45" y="490" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="B3QuXH3KUuEEBba2Pdkw-1">
+          <mxGeometry x="45" y="750" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B3QuXH3KUuEEBba2Pdkw-3" value="БД" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="500" y="40" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="B3QuXH3KUuEEBba2Pdkw-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="B3QuXH3KUuEEBba2Pdkw-3" vertex="1">
+          <mxGeometry x="45" y="220" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="B3QuXH3KUuEEBba2Pdkw-3">
+          <mxGeometry x="45" y="590" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="B3QuXH3KUuEEBba2Pdkw-3">
+          <mxGeometry x="45" y="780" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-1" value="Обрати файл" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="200" />
+            </Array>
+            <mxPoint x="230" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-2" value="Запит інформації про&amp;nbsp;&lt;div&gt;формат файлу&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;exitX=1.5;exitY=0.262;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="249.99999999999977" y="230.00000000000003" as="sourcePoint" />
+            <mxPoint x="389.5" y="230.00000000000003" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-3" value="Отримати дані про файл" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=1.5;exitY=0.262;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="410" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="260" />
+            </Array>
+            <mxPoint x="550" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-4" value="Результат запиту" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="300" />
+            </Array>
+            <mxPoint x="540" y="300" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-5" value="Метаінформація&amp;nbsp;&lt;div&gt;про аудіофайл&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="240" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="330" />
+            </Array>
+            <mxPoint x="380" y="330" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-6" value="Відображення у&lt;br&gt;&amp;nbsp;WAVE-формі" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="370" />
+            </Array>
+            <mxPoint x="230" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-7" value="Виділити сегмент аудіо" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="90" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="420" />
+            </Array>
+            <mxPoint x="230" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-8" value="Відображення&amp;nbsp;&lt;div&gt;виділеного сегменту&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="460" />
+            </Array>
+            <mxPoint x="230" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-11" value="Копіювати сегмент" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="90" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="500" />
+            </Array>
+            <mxPoint x="230" y="500" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-12" value="Зберегти&amp;nbsp;&lt;div&gt;сегмент у буфері&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="250" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="335" y="530" />
+            </Array>
+            <mxPoint x="390" y="530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-14" value="Вибрати точку вставки,&lt;div&gt;вставити&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="90" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="580" />
+            </Array>
+            <mxPoint x="230" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-17" value="Додати сегмент у файл" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="250" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="335" y="610" />
+            </Array>
+            <mxPoint x="390" y="610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-18" value="Оновлення сегменту&lt;div&gt;у доріжці&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="485" y="630" />
+            </Array>
+            <mxPoint x="540" y="630" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-19" value="Підтвердження зберігання" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="670" />
+            </Array>
+            <mxPoint x="540" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-20" value="Оновлення стану" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="690" />
+            </Array>
+            <mxPoint x="380" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-21" value="Відображення оновленого&amp;nbsp;&lt;div&gt;аудіо-файлу&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="700" />
+            </Array>
+            <mxPoint x="230" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-23" value="Зберегти файл MP3&amp;nbsp;&lt;div&gt;у форматі FLAC&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="90" y="760" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="760" />
+            </Array>
+            <mxPoint x="230" y="760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-24" value="Виконати конвертацію" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="250" y="790" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="335" y="790" />
+            </Array>
+            <mxPoint x="390" y="790" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-25" value="Зберегти файл в&amp;nbsp;&lt;div&gt;оновленому форматі&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="uC5Nvcb22XOgWz4EIGrs-29" target="B3QuXH3KUuEEBba2Pdkw-3">
+          <mxGeometry x="0.0031" relative="1" as="geometry">
+            <mxPoint x="400" y="820" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="475" y="820" />
+            </Array>
+            <mxPoint x="530" y="820" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-26" value="Підтвердження зберігання" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="B3QuXH3KUuEEBba2Pdkw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="860" />
+            </Array>
+            <mxPoint x="540" y="860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-28" value="Шлях до збереженого&amp;nbsp;&lt;div&gt;файлу&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="890" />
+            </Array>
+            <mxPoint x="390" y="890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-31" value="Повідомлення про&amp;nbsp;&lt;div&gt;завершення кодування&amp;nbsp;&lt;/div&gt;&lt;div&gt;та зберігання&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="920" />
+            </Array>
+            <mxPoint x="240" y="920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-32" value="Закрити застосунок" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0049" relative="1" as="geometry">
+            <mxPoint x="90" y="980" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="980" />
+            </Array>
+            <mxPoint x="230" y="980" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC5Nvcb22XOgWz4EIGrs-33" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="970" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

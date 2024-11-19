@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Сторінка-1" id="vb62iKHLegLthOpF_Zqu">
+    <mxGraphModel dx="875" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-1" value="DeploymentTarget1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="10" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-2" value="Node1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="jAeTgM6JljHVVAUUvDI8-1">
+          <mxGeometry width="100" height="80" relative="1" as="geometry">
+            <mxPoint x="10" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-3" value="&amp;lt;&amp;lt;deployment spec&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Deployment1&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-4" value="Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-9" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Комп&#39;ютер користувача&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="510" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-15" value="GUI" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="350" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jAeTgM6JljHVVAUUvDI8-16" target="jAeTgM6JljHVVAUUvDI8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-20" value="JDBC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jAeTgM6JljHVVAUUvDI8-19">
+          <mxGeometry x="-0.23" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Сервер" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="365" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-18" value="База даних&amp;nbsp;&lt;div&gt;SQLite&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="490" width="142" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-7" value="«Annotation»&lt;br&gt;&lt;b&gt;audioeditor.exe&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-8" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="jAeTgM6JljHVVAUUvDI8-7">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-21" value="Файлова система" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.629;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jAeTgM6JljHVVAUUvDI8-16" target="jAeTgM6JljHVVAUUvDI8-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="431" as="sourcePoint" />
+            <mxPoint x="418" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-23" value="File Access (java.io)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jAeTgM6JljHVVAUUvDI8-22">
+          <mxGeometry x="-0.23" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.448;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;endArrow=none;endFill=0;exitPerimeter=0;" edge="1" parent="1" source="jAeTgM6JljHVVAUUvDI8-15" target="jAeTgM6JljHVVAUUvDI8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAeTgM6JljHVVAUUvDI8-27" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jAeTgM6JljHVVAUUvDI8-26">
+          <mxGeometry x="-0.0006" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

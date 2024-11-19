@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+
+component AudioEnvironment <<component>> {
+
+component Користувач <<component>> {
+    component Застосунок <<component>>
+    component GUI <<component>>
+    IGUI - GUI
+    port ApplicationRequest
+    Застосунок --> ApplicationRequest
+}
+
+
+Застосунок ..> IGUI
+
+component "Сервіс застосунку" <<component>> {
+    component Сервіс <<component>>
+    port ApplicationAccess
+    ApplicationAccess --> Сервіс
+}
+
+ApplicationRequest --> ApplicationAccess
+}
+
+@enduml

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="audio_editor" uuid="5911040c-022d-4c10-8074-8dd74f420630">
+    <data-source source="LOCAL" name="audio_editor" uuid="12990bc9-a4aa-44c8-b0c8-229943f1f570">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\admin\Desktop\1sem\ТРПЗ\AudioEditor\audio_editor.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\admin\Desktop\1sem\AudioEditor\audio_editor.db</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
       </jdbc-additional-properties>
