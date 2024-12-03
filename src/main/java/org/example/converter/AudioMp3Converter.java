@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class AudioMp3Converter implements Converter<File> {
-    public static AudioMp3Converter INSTANCE;
+    private static AudioMp3Converter INSTANCE;
     private EncodingAttributes encodingAttributes;
     private Encoder encoder;
 

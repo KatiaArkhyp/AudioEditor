@@ -11,12 +11,13 @@ import java.nio.file.Path;
 public class Ogg extends Audiotrack {
     private AudioAttributes audioAttributes;
     private File fileLink;
+
     public Ogg(String filePath) {
         checkFileFormat(filePath);
         File audioFile = new File(filePath);
         fileLink = audioFile;
         audioAttributes = new AudioAttributes();
-        audioAttributes.setCodec("ogg");
+        audioAttributes.setCodec("vorbis");
         audioAttributes.setBitRate(128000);
         audioAttributes.setChannels(2);
         audioAttributes.setSamplingRate(44100);

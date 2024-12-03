@@ -8,7 +8,7 @@ import org.example.audiotrack.Audiotrack;
 import java.io.File;
 
 public class AudioFlacConverter implements Converter<File> {
-    public static AudioFlacConverter INSTANCE;
+    private static AudioFlacConverter INSTANCE;
     private EncodingAttributes encodingAttributes;
     private Encoder encoder;
 
@@ -28,7 +28,6 @@ public class AudioFlacConverter implements Converter<File> {
     @Override
     public File convertTo(Audiotrack audiotrack) {
         encodingAttributes.setAudioAttributes(audiotrack.getAudioAttributes());
-
         File convertedFlac = new File(audiotrack.getFileLink().getParent() + "\\" + audiotrack.getFileLink().getName() + " (converted to flac).flac");
         try {
             encoder.encode(audiotrack.getFileLink(), convertedFlac, encodingAttributes);
