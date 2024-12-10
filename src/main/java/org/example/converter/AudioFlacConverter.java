@@ -6,6 +6,7 @@ import it.sauronsoftware.jave.EncodingAttributes;
 import org.example.audiotrack.Audiotrack;
 
 import java.io.File;
+import java.io.IOException;
 
 public class AudioFlacConverter implements Converter<File> {
     private static AudioFlacConverter INSTANCE;
@@ -28,13 +29,13 @@ public class AudioFlacConverter implements Converter<File> {
     @Override
     public File convertTo(Audiotrack audiotrack) {
         encodingAttributes.setAudioAttributes(audiotrack.getAudioAttributes());
-        File convertedFlac = new File(audiotrack.getFileLink().getParent() + "\\" + audiotrack.getFileLink().getName() + " (converted to flac).flac");
         try {
+            File convertedFlac = new File(audiotrack.getFileLink().getParent() + "\\" + audiotrack.getFileLink().getName() + " (converted to flac).flac");
+            convertedFlac.createNewFile();
             encoder.encode(audiotrack.getFileLink(), convertedFlac, encodingAttributes);
-        } catch (EncoderException e) {
+            return convertedFlac;
+        } catch (EncoderException | IOException e) {
             throw new RuntimeException(e);
         }
-
-        return convertedFlac;
     }
 }
