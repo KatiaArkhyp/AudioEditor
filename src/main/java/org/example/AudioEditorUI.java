@@ -4,6 +4,7 @@ import org.example.converter.AudioFlacConverter;
 import org.example.converter.AudioMp3Converter;
 import org.example.converter.AudioOggConverter;
 import org.example.audiotrack.*;
+import org.example.swing.Logger;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,8 +14,12 @@ public class AudioEditorUI {
     private JFrame frame;
     private File selectedFile;
     private JPanel waveformPanel;
+    private Logger logger;
 
     public AudioEditorUI() {
+
+        logger = new Logger();
+
         frame = new JFrame("Audio Editor");
         frame.setSize(600, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -53,6 +58,7 @@ public class AudioEditorUI {
                 selectedFile = fileChooser.getSelectedFile();
                 fileLabel.setText("Selected: " + selectedFile.getName());
                 displayWaveform(selectedFile);
+                logger.fileOpen();
             }
         });
 
