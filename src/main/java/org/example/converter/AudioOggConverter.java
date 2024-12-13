@@ -6,6 +6,7 @@ import it.sauronsoftware.jave.EncodingAttributes;
 import org.example.audiotrack.Audiotrack;
 
 import java.io.File;
+import java.io.IOException;
 
 public class AudioOggConverter implements Converter<File> {
     private static AudioOggConverter INSTANCE;
@@ -28,14 +29,23 @@ public class AudioOggConverter implements Converter<File> {
     @Override
     public File convertTo(Audiotrack audiotrack) {
         encodingAttributes.setAudioAttributes(audiotrack.getAudioAttributes());
-
-        File convertedOgg = new File(audiotrack.getFileLink().getParent() + "\\" + audiotrack.getFileLink().getName() + " (converted to ogg).ogg");
-        try {
+        try{
+            File convertedOgg = new File(audiotrack.getFileLink().getParent() + "\\" + audiotrack.getFileLink().getName() + " (converted to ogg).ogg");
+            convertedOgg.createNewFile();
             encoder.encode(audiotrack.getFileLink(), convertedOgg, encodingAttributes);
-        } catch (EncoderException e) {
+            return convertedOgg;
+        } catch (EncoderException | IOException e) {
             throw new RuntimeException(e);
         }
-
-        return convertedOgg;
+//        encodingAttributes.setAudioAttributes(audiotrack.getAudioAttributes());
+//
+//        File convertedOgg = new File(audiotrack.getFileLink().getParent() + "\\" + audiotrack.getFileLink().getName() + " (converted to ogg).ogg");
+//        try {
+//            encoder.encode(audiotrack.getFileLink(), convertedOgg, encodingAttributes);
+//        } catch (EncoderException e) {
+//            throw new RuntimeException(e);
+//        }
+//
+//        return convertedOgg;
     }
 }
