@@ -63,5 +63,6 @@ public class AudioEditorUI {
         mainContainer.operation();
 
         frame.setVisible(true);
+
     }
 }
